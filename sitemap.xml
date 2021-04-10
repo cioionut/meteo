@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
         <url>
           <loc>https://meteo.ionkom.com/en/weather/zennor-england/2633324</loc>
         </url>
@@ -111322,5 +111321,10 @@
         <url>
           <loc>https://meteo.ionkom.com</loc>
         </url>
+        <url>
+          <loc>https://meteo.ionkom.com/en</loc>
+        </url>
+        <url>
+          <loc>https://meteo.ionkom.com/ro</loc>
+        </url>
   </urlset>
-  
