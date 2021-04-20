@@ -958,7 +958,7 @@ module.exports = JSON.parse('{"0":"Sunday","1":"Monday","2":"Tuesday","3":"Wedne
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise forecasts using Artificial Intelligence","pageDescription":"Ionkom World Weather. View detailed weather forecast for the current month, The weather shows temperature, precipitation, wind and humidity for 15 days. See the weather by hours and days.","h1":"Current weather in {{city}}, {{admin1Place}}","showBigCities":"{{country}} weather conditions in cities","showAdmin1":"{{country}} States/Regions","showCountries":"World Weather"}');
+module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise forecasts using Artificial Intelligence","pageDescription":"Ionkom World Weather. View detailed weather forecast for the current month, The weather shows temperature, precipitation, wind and humidity for 15 days. See the weather by hours and days.","h1":"{{city}}, {{admin1Place}} Weather","showBigCities":"{{country}} weather conditions in cities","showAdmin1":"{{country}} States/Regions","showCountries":"World Weather"}');
 
 /***/ }),
 
