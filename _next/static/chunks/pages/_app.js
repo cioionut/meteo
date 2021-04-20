@@ -969,7 +969,7 @@ module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise forecasts us
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"{{city}}, {{admin1Place}} Weather 15-days Forecast","h1":"{{city}}, {{admin1Place}}","pageDescription":"Weather forecast for today, tonight & tomorrow for {{city}}, {{admin1Place}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitations, wind speed, visibility and UV index all for 15 days."}');
+module.exports = JSON.parse('{"pageTitle":"{{flag}} {{location}} Weather 15-days Forecast","h1":"{{flag}} {{location}} Weather","pageDescription":"Weather forecast for today, tonight & tomorrow for {{location}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitations, wind speed, visibility and UV index all for 15 days."}');
 
 /***/ }),
 
@@ -1079,7 +1079,7 @@ module.exports = JSON.parse('{"pageTitle":"Vremea în România, 15 zile de progn
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"Vremea în {{city}}, {{admin1Place}} Meteo pe 15 zile","h1":"Vremea în {{city}}, {{admin1Place}}","pageDescription":"Vremea pentru astăzi, la noapte, mâine si peste 15 zile pentru {{city}}, {{admin1Place}}. Prognoza meteo relevantă și pe ințelesul tuturor. Starea vremii include temperatura, precipitațiile, vântul, vizibilitatea și indexul UV pt 15 zile."}');
+module.exports = JSON.parse('{"pageTitle":"{{flag}} Vremea în {{location}} Meteo pe 15 zile","h1":"{{flag}} Vremea în {{location}}","pageDescription":"Vremea pentru astăzi, la noapte, mâine si peste 15 zile pentru {{location}}. Prognoza meteo relevantă și pe ințelesul tuturor. Starea vremii include temperatura, precipitațiile, vântul, vizibilitatea și indexul UV pt 15 zile."}');
 
 /***/ }),
 
