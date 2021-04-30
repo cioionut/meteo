@@ -980,7 +980,7 @@ module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise forecasts us
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"{{flag}} {{location}} Weather 15-days Forecast","h1":"{{flag}} {{location}} Weather","pageDescription":"Weather forecast for today, tonight & tomorrow for {{location}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitations, wind speed, visibility and UV index all for 15 days."}');
+module.exports = JSON.parse('{"pageTitle":"{{location}} Weather Forecast and Conditions","h1":"{{flag}} {{location}} Weather","pageDescription":"Weather forecast and meteo conditions for today, tonight & tomorrow for {{location}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitations, wind speed, visibility and UV index all for 15 days."}');
 
 /***/ }),
 
@@ -1079,7 +1079,7 @@ module.exports = JSON.parse('{"0":"Duminică","1":"Luni","2":"Marți","3":"Mierc
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"Vremea în România, 15 zile de prognoză meteo precisă","pageDescription":"Vremea în România. Vezi prognoza meteo detaliata pentru luna curenta, Starea vremii prezintă temperatura, precipitațiile, vântul si umiditatea pentru 15 zile. Vezi vremea pe ore sau zile în localitățile din România.","h1":"Vremea în {{city}}, {{admin1Place}}","showBigCities":"Condițiile meteo în marile orașe","showAdmin1":"Prognoza meteo pe județe","showCountries":"În lume"}');
+module.exports = JSON.parse('{"pageTitle":"Vremea în România, prognoza meteo în țară","pageDescription":"Vremea în România. Vezi prognoza meteo detaliata pentru luna curenta, Starea vremii prezintă temperatura, precipitațiile, vântul si umiditatea pentru 15 zile. Vezi vremea pe ore sau zile în localitățile din România.","h1":"Vremea în {{city}}, {{admin1Place}}","showBigCities":"Condițiile meteo în marile orașe","showAdmin1":"Prognoza meteo pe județe","showCountries":"În lume"}');
 
 /***/ }),
 
@@ -1090,7 +1090,7 @@ module.exports = JSON.parse('{"pageTitle":"Vremea în România, 15 zile de progn
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"{{flag}} Vremea în {{location}} Meteo pe 15 zile","h1":"{{flag}} Vremea în {{location}}","pageDescription":"Vremea pentru astăzi, la noapte, mâine si peste 15 zile pentru {{location}}. Prognoza meteo relevantă și pe ințelesul tuturor. Starea vremii include temperatura, precipitațiile, vântul, vizibilitatea și indexul UV pt 15 zile."}');
+module.exports = JSON.parse('{"pageTitle":"Vremea în {{location}} - Prognoză condiții meteo","h1":"{{flag}} Vremea în {{location}}","pageDescription":"Vremea pentru astăzi, la noapte, mâine si peste 15 zile pentru {{location}}. Prognoza meteo relevantă și pe ințelesul tuturor. Starea vremii include temperatura, precipitațiile, vântul, vizibilitatea și indexul UV pt 15 zile."}');
 
 /***/ }),
 
