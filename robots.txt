@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://meteo.ionkom.com/sitemap.xml
+Sitemap: https://meteo.ionkom.com/sitemap_index.xml
