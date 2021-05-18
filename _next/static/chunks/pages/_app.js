@@ -311,7 +311,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n\n\nvar 
   \****************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar languages = ['en', 'ro'];\nvar defaultLanguage = 'en';\nmodule.exports = {\n  languages: languages,\n  defaultLanguage: defaultLanguage\n};\n\n;\n    var _a, _b;\n    // Legacy CSS implementations will `eval` browser code in a Node.js context\n    // to extract CSS. For backwards compatibility, we need to check we're in a\n    // browser context before continuing.\n    if (typeof self !== 'undefined' &&\n        // AMP / No-JS mode does not inject these helpers:\n        '$RefreshHelpers$' in self) {\n        var currentExports = module.__proto__.exports;\n        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;\n        // This cannot happen in MainTemplate because the exports mismatch between\n        // templating and execution.\n        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);\n        // A module can be accepted automatically based on its exports, e.g. when\n        // it is a Refresh Boundary.\n        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n            // Save the previous exports on update so we can compare the boundary\n            // signatures.\n            module.hot.dispose(function (data) {\n                data.prevExports = currentExports;\n            });\n            // Unconditionally accept an update to this module, we'll check if it's\n            // still a Refresh Boundary later.\n            module.hot.accept();\n            // This field is set when the previous version of this module was a\n            // Refresh Boundary, letting us know we need to check for invalidation or\n            // enqueue an update.\n            if (prevExports !== null) {\n                // A boundary can become ineligible if its exports are incompatible\n                // with the previous exports.\n                //\n                // For example, if you add/remove/change exports, we'll want to\n                // re-execute the importing modules, and force those components to\n                // re-render. Similarly, if you convert a class component to a\n                // function, we want to invalidate the boundary.\n                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {\n                    module.hot.invalidate();\n                }\n                else {\n                    self.$RefreshHelpers$.scheduleUpdate();\n                }\n            }\n        }\n        else {\n            // Since we just executed the code for the module, it's possible that the\n            // new exports made it ineligible for being a boundary.\n            // We only care about the case when we were _previously_ a boundary,\n            // because we already accepted this update (accidental side effect).\n            var isNoLongerABoundary = prevExports !== null;\n            if (isNoLongerABoundary) {\n                module.hot.invalidate();\n            }\n        }\n    }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2kxOG4vY29uZmlnLmpzP2Q4MDgiXSwibmFtZXMiOlsibGFuZ3VhZ2VzIiwiZGVmYXVsdExhbmd1YWdlIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6IjtBQUFBLElBQU1BLFNBQVMsR0FBRyxDQUFDLElBQUQsRUFBTyxJQUFQLENBQWxCO0FBRUEsSUFBTUMsZUFBZSxHQUFHLElBQXhCO0FBRUFDLE1BQU0sQ0FBQ0MsT0FBUCxHQUFpQjtBQUNiSCxXQUFTLEVBQVRBLFNBRGE7QUFFYkMsaUJBQWUsRUFBZkE7QUFGYSxDQUFqQiIsImZpbGUiOiIuL3NyYy9pMThuL2NvbmZpZy5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IGxhbmd1YWdlcyA9IFsnZW4nLCAncm8nXTtcblxuY29uc3QgZGVmYXVsdExhbmd1YWdlID0gJ2VuJztcblxubW9kdWxlLmV4cG9ydHMgPSB7XG4gICAgbGFuZ3VhZ2VzLFxuICAgIGRlZmF1bHRMYW5ndWFnZVxufSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/i18n/config.js\n");
+eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar languages = ['en', 'de', 'it', 'ro'];\nvar defaultLanguage = 'en';\nmodule.exports = {\n  languages: languages,\n  defaultLanguage: defaultLanguage\n};\n\n;\n    var _a, _b;\n    // Legacy CSS implementations will `eval` browser code in a Node.js context\n    // to extract CSS. For backwards compatibility, we need to check we're in a\n    // browser context before continuing.\n    if (typeof self !== 'undefined' &&\n        // AMP / No-JS mode does not inject these helpers:\n        '$RefreshHelpers$' in self) {\n        var currentExports = module.__proto__.exports;\n        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;\n        // This cannot happen in MainTemplate because the exports mismatch between\n        // templating and execution.\n        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);\n        // A module can be accepted automatically based on its exports, e.g. when\n        // it is a Refresh Boundary.\n        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n            // Save the previous exports on update so we can compare the boundary\n            // signatures.\n            module.hot.dispose(function (data) {\n                data.prevExports = currentExports;\n            });\n            // Unconditionally accept an update to this module, we'll check if it's\n            // still a Refresh Boundary later.\n            module.hot.accept();\n            // This field is set when the previous version of this module was a\n            // Refresh Boundary, letting us know we need to check for invalidation or\n            // enqueue an update.\n            if (prevExports !== null) {\n                // A boundary can become ineligible if its exports are incompatible\n                // with the previous exports.\n                //\n                // For example, if you add/remove/change exports, we'll want to\n                // re-execute the importing modules, and force those components to\n                // re-render. Similarly, if you convert a class component to a\n                // function, we want to invalidate the boundary.\n                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {\n                    module.hot.invalidate();\n                }\n                else {\n                    self.$RefreshHelpers$.scheduleUpdate();\n                }\n            }\n        }\n        else {\n            // Since we just executed the code for the module, it's possible that the\n            // new exports made it ineligible for being a boundary.\n            // We only care about the case when we were _previously_ a boundary,\n            // because we already accepted this update (accidental side effect).\n            var isNoLongerABoundary = prevExports !== null;\n            if (isNoLongerABoundary) {\n                module.hot.invalidate();\n            }\n        }\n    }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2kxOG4vY29uZmlnLmpzP2Q4MDgiXSwibmFtZXMiOlsibGFuZ3VhZ2VzIiwiZGVmYXVsdExhbmd1YWdlIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6IjtBQUFBLElBQU1BLFNBQVMsR0FBRyxDQUFDLElBQUQsRUFBTyxJQUFQLEVBQWEsSUFBYixFQUFtQixJQUFuQixDQUFsQjtBQUVBLElBQU1DLGVBQWUsR0FBRyxJQUF4QjtBQUVBQyxNQUFNLENBQUNDLE9BQVAsR0FBaUI7QUFDYkgsV0FBUyxFQUFUQSxTQURhO0FBRWJDLGlCQUFlLEVBQWZBO0FBRmEsQ0FBakIiLCJmaWxlIjoiLi9zcmMvaTE4bi9jb25maWcuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBsYW5ndWFnZXMgPSBbJ2VuJywgJ2RlJywgJ2l0JywgJ3JvJ107XG5cbmNvbnN0IGRlZmF1bHRMYW5ndWFnZSA9ICdlbic7XG5cbm1vZHVsZS5leHBvcnRzID0ge1xuICAgIGxhbmd1YWdlcyxcbiAgICBkZWZhdWx0TGFuZ3VhZ2Vcbn0iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/i18n/config.js\n");
 
 /***/ }),
 
@@ -995,6 +995,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/locales/de/3hourly-weather.json":
+/*!*********************************************!*\
+  !*** ./src/locales/de/3hourly-weather.json ***!
+  \*********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"card-title":"Heute, heute Abend und morgen in {{location}}","card-subtitle":"Nächste 24 Stunden - Wetterbedingungen"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/aboutlocation.json":
+/*!*******************************************!*\
+  !*** ./src/locales/de/aboutlocation.json ***!
+  \*******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"about-location":"Über {{location}}","short-geo-desc":"{{city}} ist eine Stadt in{{admList}}.","geo-coords":"Geografische Koordinaten:","show-in-gmaps":"Zeigen Sie {{name}} in Google Maps","alternatenames":"Alternative Namen:"}');
+
+/***/ }),
+
 /***/ "./src/locales/de/common.json":
 /*!************************************!*\
   !*** ./src/locales/de/common.json ***!
@@ -1002,7 +1024,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(module) {
 
 "use strict";
-module.exports = {"weather":"wetter"};
+module.exports = JSON.parse('{"weather":"wetter","siteName":"Wetter","home":"Home","cities":"Städte","counties":"Grafschaften","current-weather":"Aktuelle Wetterlage","today-weather-in":"Heute in {{place}}","nextHours":"Nächste Stunden","next5days":"5 Tage","inAdmin1Place":"{{admin1Place}}","precipitation":"Niederschlag","wind":"Wind","humidity":"Feuchtigkeit","clouds":"Wolken","visibility":"Sichtweite","pressure":"Druck","feelsLike":"Fühlt sich an wie","forecast":"Ab","15daysforecast":"Nächste 15 Tage","request15draport":"Fordern Sie Meteo Raport an","latitude":"latitude","longitude":"longitude","moreWeatherConditions":"Weitere {{location}} Wettervorhersagen","weatherIn":"Wetter in {{location}} ","world":"Welt","seeDetailed":"Detaillierte Bedingungen","selectUnits":"Einheiten auswählen"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/cookieconsent.json":
+/*!*******************************************!*\
+  !*** ./src/locales/de/cookieconsent.json ***!
+  \*******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"confirm":"ICH VERSTEHE","consent":"Wir verwenden Cookies für Analysen, Werbung und zur Verbesserung unserer Website. Sie stimmen unserer Verwendung von Cookies zu, indem Sie dieses Meldungsfeld schließen oder unsere Website weiterhin nutzen. Weitere Informationen, einschließlich der Änderung Ihrer Einstellungen, finden Sie in unserer","cookiePolicy":"Cookie-Richtlinie"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/daily3hweather.json":
+/*!********************************************!*\
+  !*** ./src/locales/de/daily3hweather.json ***!
+  \********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"title":"Nächste 5 Tage","card-subtitle":"Tägliche Wettervorhersage ab heute"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/days-of-week.json":
+/*!******************************************!*\
+  !*** ./src/locales/de/days-of-week.json ***!
+  \******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"0":"Sonntag","1":"Montag","2":"Dienstag","3":"Mittwoch","4":"Donnerstag","5":"Freitag","6":"Samstag"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/footer.json":
+/*!************************************!*\
+  !*** ./src/locales/de/footer.json ***!
+  \************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"aboutPageTitle":"Über","privacyPolicyPageTitle":"Datenschutz-Bestimmungen","termsPageTitle":"Geschäftsbedingungen","owm":"Wetterdaten von OpenWeather (TM)"}');
 
 /***/ }),
 
@@ -1013,7 +1079,40 @@ module.exports = {"weather":"wetter"};
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise weather forecast using Artificial Intelligence"}');
+module.exports = JSON.parse('{"pageTitle":"Ionkom Wetter - Präzise Vorhersagen mit künstlicher Intelligenz","pageDescription":"Ionkom Weltwetter. Detaillierte Wettervorhersage für den aktuellen Monat anzeigen. Das Wetter zeigt 15 Tage lang Temperatur, Niederschlag, Wind und Luftfeuchtigkeit an. Sehen Sie das Wetter nach Stunden und Tagen.","h1":"Wetter in {{city}}, {{admin1Place}}","showBigCities":"{{country}} Wetterbedingungen in Städten","showAdmin1":"{{country}} Staaten / Regionen","showCountries":"Weltwetter"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/locationpage.json":
+/*!******************************************!*\
+  !*** ./src/locales/de/locationpage.json ***!
+  \******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"pageTitle":"Wettervorhersage und Bedingungen in {{location}}","h1":"Wetter in {{flag}} {{location}}","pageDescription":"Wettervorhersage und Wetterbedingungen für heute, heute Abend und morgen für {{location}}. Erhalten Sie relevante und genaue Daten über die aktuellen Bedingungen. Der Wetterbericht enthält 15 Tage lang Temperatur, Niederschlagswahrscheinlichkeit, Windgeschwindigkeit, Sichtbarkeit und UV-Index."}');
+
+/***/ }),
+
+/***/ "./src/locales/de/months-of-year.json":
+/*!********************************************!*\
+  !*** ./src/locales/de/months-of-year.json ***!
+  \********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"0":"Januar","1":"Februar","2":"März","3":"April","4":"Mai","5":"Juni","6":"Juli","7":"August","8":"September","9":"Oktober","10":"November","11":"Dezember"}');
+
+/***/ }),
+
+/***/ "./src/locales/de/worldw.json":
+/*!************************************!*\
+  !*** ./src/locales/de/worldw.json ***!
+  \************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"pageTitle":"Weltwetter - Präzise Vorhersagen mit künstlicher Intelligenz","pageDescription":"Weltwetter für Ihre Branche. Zeigen Sie detaillierte Wettervorhersagen an Ihrem Standort an."}');
 
 /***/ }),
 
@@ -1112,7 +1211,7 @@ module.exports = JSON.parse('{"pageTitle":"Ionkom Weather - Precise forecasts us
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"{{location}} Weather Forecast and Conditions","h1":"{{flag}} {{location}} Weather","pageDescription":"Weather forecast and meteo conditions for today, tonight & tomorrow for {{location}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitations, wind speed, visibility and UV index all for 15 days."}');
+module.exports = JSON.parse('{"pageTitle":"{{location}} Weather Forecast and Conditions","h1":"{{flag}} {{location}} Weather","pageDescription":"Weather forecast and meteo conditions for today, tonight & tomorrow for {{location}}. Get relevant and precise data about current conditions. The weather report contains temperature, probability of precipitation, wind speed, visibility and UV index all for 15 days."}');
 
 /***/ }),
 
@@ -1135,6 +1234,127 @@ module.exports = JSON.parse('{"0":"January","1":"February","2":"March","3":"Apri
 
 "use strict";
 module.exports = JSON.parse('{"pageTitle":"World Weather - Precise forecasts using Artificial Intelligence","pageDescription":"World Weather for your industry. View detailed weather forecasts in your location."}');
+
+/***/ }),
+
+/***/ "./src/locales/it/3hourly-weather.json":
+/*!*********************************************!*\
+  !*** ./src/locales/it/3hourly-weather.json ***!
+  \*********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"card-title":"Oggi, stasera e domani in {{location}}","card-subtitle":"Prossime 24 ore - condizioni meteorologiche"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/aboutlocation.json":
+/*!*******************************************!*\
+  !*** ./src/locales/it/aboutlocation.json ***!
+  \*******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"about-location":"Di {{location}}","short-geo-desc":"{{city}} è una città in {{admList}}.","geo-coords":"Coordinate geografiche:","show-in-gmaps":"Mostra {{name}} in Google Maps","alternatenames":"Nomi alternativi:"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/common.json":
+/*!************************************!*\
+  !*** ./src/locales/it/common.json ***!
+  \************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"weather":"previsioni meteo","siteName":"Meteo","home":"Casa","cities":"Città","counties":"Contee","current-weather":"Meteo attuale","today-weather-in":"Oggi in {{place}}","nextHours":"Nelle prossime ore","next5days":"5 giorni","inAdmin1Place":"{{admin1Place}}","precipitation":"Precipitazione","wind":"Vento","humidity":"Umidità","clouds":"Nuvole","visibility":"Visibilità","pressure":"Pressione","feelsLike":"Si sente come","forecast":"Dalle","15daysforecast":"I prossimi 15 giorni","request15draport":"Richiedi meteo raport","latitude":"latitude","longitude":"longitude","moreWeatherConditions":"Altre {{location}} previsioni del tempo","weatherIn":"Previsioni Meteo Per {{location}}","world":"Mondo","seeDetailed":"Condizioni dettagliate","selectUnits":"Seleziona unità"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/cookieconsent.json":
+/*!*******************************************!*\
+  !*** ./src/locales/it/cookieconsent.json ***!
+  \*******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"confirm":"CAPISCO","consent":"Utilizziamo i cookie per analisi, pubblicità e per migliorare il nostro sito. Accetti il nostro utilizzo dei cookie chiudendo questa finestra di messaggio o continuando a utilizzare il nostro sito. Per saperne di più, incluso come modificare le tue impostazioni, consulta il nostro","cookiePolicy":"Gestione dei Cookie"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/daily3hweather.json":
+/*!********************************************!*\
+  !*** ./src/locales/it/daily3hweather.json ***!
+  \********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"title":"Prossimi 5 giorni","card-subtitle":"Previsioni meteo giornaliere a partire da oggi"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/days-of-week.json":
+/*!******************************************!*\
+  !*** ./src/locales/it/days-of-week.json ***!
+  \******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"0":"Domenica","1":"Lunedì","2":"Martedì","3":"Mercoledì","4":"Giovedì","5":"Venerdì","6":"Sabato"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/footer.json":
+/*!************************************!*\
+  !*** ./src/locales/it/footer.json ***!
+  \************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"aboutPageTitle":"Di","privacyPolicyPageTitle":"Politica sulla riservatezza","termsPageTitle":"Termini e Condizioni","owm":"Dati meteorologici da OpenWeather (TM)"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/home.json":
+/*!**********************************!*\
+  !*** ./src/locales/it/home.json ***!
+  \**********************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"pageTitle":"Ionkom Meteo - Previsioni precise utilizzando l\'intelligenza artificiale","pageDescription":"Ionkom Meteo Mondo. Visualizza previsioni meteo dettagliate per il mese corrente, Il tempo mostra temperatura, precipitazioni, vento e umidità per 15 giorni. Guarda il tempo per ore e giorni.","h1":"Previsioni Meteo per {{city}}, {{admin1Place}} ","showBigCities":"{{country}} condizioni meteorologiche nelle città","showAdmin1":"{{country}} Stati / regioni","showCountries":"Meteo Mondo"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/locationpage.json":
+/*!******************************************!*\
+  !*** ./src/locales/it/locationpage.json ***!
+  \******************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"pageTitle":"Previsioni Meteo per {{location}}","h1":"{{flag}} Previsioni Meteo per {{location}}","pageDescription":"Previsioni del tempo e condizioni meteo per oggi, stanotte e domani per {{location}}. Ottieni dati pertinenti e precisi sulle condizioni attuali. Il bollettino meteorologico contiene temperatura, probabilità di precipitazioni, velocità del vento, visibilità e indice UV per 15 giorni."}');
+
+/***/ }),
+
+/***/ "./src/locales/it/months-of-year.json":
+/*!********************************************!*\
+  !*** ./src/locales/it/months-of-year.json ***!
+  \********************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"0":"Gennaio","1":"Febbraio","2":"Marzo","3":"Aprile","4":"Maggio","5":"Giugno","6":"luglio","7":"Agosto","8":"Settembre","9":"Ottobre","10":"Novembre","11":"Dicembre"}');
+
+/***/ }),
+
+/***/ "./src/locales/it/worldw.json":
+/*!************************************!*\
+  !*** ./src/locales/it/worldw.json ***!
+  \************************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse('{"pageTitle":"Meteo mondiale: previsioni precise utilizzando l\'intelligenza artificiale","pageDescription":"World Weather for your industry. View detailed weather forecasts in your location."}');
 
 /***/ }),
 
@@ -1266,7 +1486,9 @@ module.exports = JSON.parse('{"pageTitle":"Vremea în lume - condiții meteo pre
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/3hourly-weather.json": "./src/locales/de/3hourly-weather.json",
 	"./en/3hourly-weather.json": "./src/locales/en/3hourly-weather.json",
+	"./it/3hourly-weather.json": "./src/locales/it/3hourly-weather.json",
 	"./ro/3hourly-weather.json": "./src/locales/ro/3hourly-weather.json"
 };
 
@@ -1299,7 +1521,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/3hourly\\-weather\
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/aboutlocation.json": "./src/locales/de/aboutlocation.json",
 	"./en/aboutlocation.json": "./src/locales/en/aboutlocation.json",
+	"./it/aboutlocation.json": "./src/locales/it/aboutlocation.json",
 	"./ro/aboutlocation.json": "./src/locales/ro/aboutlocation.json"
 };
 
@@ -1334,6 +1558,7 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/aboutlocation\\.js
 var map = {
 	"./de/common.json": "./src/locales/de/common.json",
 	"./en/common.json": "./src/locales/en/common.json",
+	"./it/common.json": "./src/locales/it/common.json",
 	"./ro/common.json": "./src/locales/ro/common.json"
 };
 
@@ -1366,7 +1591,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/common\\.json$";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/cookieconsent.json": "./src/locales/de/cookieconsent.json",
 	"./en/cookieconsent.json": "./src/locales/en/cookieconsent.json",
+	"./it/cookieconsent.json": "./src/locales/it/cookieconsent.json",
 	"./ro/cookieconsent.json": "./src/locales/ro/cookieconsent.json"
 };
 
@@ -1399,7 +1626,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/cookieconsent\\.js
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/daily3hweather.json": "./src/locales/de/daily3hweather.json",
 	"./en/daily3hweather.json": "./src/locales/en/daily3hweather.json",
+	"./it/daily3hweather.json": "./src/locales/it/daily3hweather.json",
 	"./ro/daily3hweather.json": "./src/locales/ro/daily3hweather.json"
 };
 
@@ -1432,7 +1661,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/daily3hweather\\.j
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/days-of-week.json": "./src/locales/de/days-of-week.json",
 	"./en/days-of-week.json": "./src/locales/en/days-of-week.json",
+	"./it/days-of-week.json": "./src/locales/it/days-of-week.json",
 	"./ro/days-of-week.json": "./src/locales/ro/days-of-week.json"
 };
 
@@ -1465,7 +1696,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/days\\-of\\-week\\
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/footer.json": "./src/locales/de/footer.json",
 	"./en/footer.json": "./src/locales/en/footer.json",
+	"./it/footer.json": "./src/locales/it/footer.json",
 	"./ro/footer.json": "./src/locales/ro/footer.json"
 };
 
@@ -1500,6 +1733,7 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/footer\\.json$";
 var map = {
 	"./de/home.json": "./src/locales/de/home.json",
 	"./en/home.json": "./src/locales/en/home.json",
+	"./it/home.json": "./src/locales/it/home.json",
 	"./ro/home.json": "./src/locales/ro/home.json"
 };
 
@@ -1532,7 +1766,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/home\\.json$";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/locationpage.json": "./src/locales/de/locationpage.json",
 	"./en/locationpage.json": "./src/locales/en/locationpage.json",
+	"./it/locationpage.json": "./src/locales/it/locationpage.json",
 	"./ro/locationpage.json": "./src/locales/ro/locationpage.json"
 };
 
@@ -1565,7 +1801,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/locationpage\\.jso
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/months-of-year.json": "./src/locales/de/months-of-year.json",
 	"./en/months-of-year.json": "./src/locales/en/months-of-year.json",
+	"./it/months-of-year.json": "./src/locales/it/months-of-year.json",
 	"./ro/months-of-year.json": "./src/locales/ro/months-of-year.json"
 };
 
@@ -1598,7 +1836,9 @@ webpackContext.id = "./src/locales sync recursive ^\\.\\/.*\\/months\\-of\\-year
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var map = {
+	"./de/worldw.json": "./src/locales/de/worldw.json",
 	"./en/worldw.json": "./src/locales/en/worldw.json",
+	"./it/worldw.json": "./src/locales/it/worldw.json",
 	"./ro/worldw.json": "./src/locales/ro/worldw.json"
 };
 
