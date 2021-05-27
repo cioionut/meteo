@@ -1090,7 +1090,7 @@ module.exports = JSON.parse('{"pageTitle":"Ionkom Wetter - Präzise Vorhersagen 
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"pageTitle":"Wettervorhersage und Bedingungen in {{location}}","h1":"Wetter in {{flag}} {{location}}","pageDescription":"Wettervorhersage und Wetterbedingungen für heute, heute Abend und morgen für {{location}}. Erhalten Sie relevante und genaue Daten über die aktuellen Bedingungen. Der Wetterbericht enthält 15 Tage lang Temperatur, Niederschlagswahrscheinlichkeit, Windgeschwindigkeit, Sichtbarkeit und UV-Index."}');
+module.exports = JSON.parse('{"pageTitle":"Wettervorhersage und Bedingungen in {{location}}","h1":"{{flag}} Wetter in {{location}}","pageDescription":"Wettervorhersage und Wetterbedingungen für heute, heute Abend und morgen für {{location}}. Erhalten Sie relevante und genaue Daten über die aktuellen Bedingungen. Der Wetterbericht enthält 15 Tage lang Temperatur, Niederschlagswahrscheinlichkeit, Windgeschwindigkeit, Sichtbarkeit und UV-Index."}');
 
 /***/ }),
 
