@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F[locale]","\u002F[locale]\u002F[lweather]\u002F[locname]\u002F[locationId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
