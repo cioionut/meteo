@@ -30818,30 +30818,9 @@
     </url>
     <url>
       <loc>https://meteo.ionkom.com</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://meteo.ionkom.com/en" />
-			<xhtml:link rel="alternate" hreflang="de" href="https://meteo.ionkom.com/de" />
-			<xhtml:link rel="alternate" hreflang="it" href="https://meteo.ionkom.com/it" />
-			<xhtml:link rel="alternate" hreflang="ro" href="https://meteo.ionkom.com/ro" />
-    </url>
-    <url>
-      <loc>https://meteo.ionkom.com/en</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://meteo.ionkom.com/en" />
-			<xhtml:link rel="alternate" hreflang="de" href="https://meteo.ionkom.com/de" />
-			<xhtml:link rel="alternate" hreflang="it" href="https://meteo.ionkom.com/it" />
-			<xhtml:link rel="alternate" hreflang="ro" href="https://meteo.ionkom.com/ro" />
-    </url>
-    <url>
-      <loc>https://meteo.ionkom.com/ro</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://meteo.ionkom.com/en" />
-			<xhtml:link rel="alternate" hreflang="de" href="https://meteo.ionkom.com/de" />
-			<xhtml:link rel="alternate" hreflang="it" href="https://meteo.ionkom.com/it" />
-			<xhtml:link rel="alternate" hreflang="ro" href="https://meteo.ionkom.com/ro" />
-    </url>
-    <url>
-      <loc>https://meteo.ionkom.com/de</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://meteo.ionkom.com/en" />
-			<xhtml:link rel="alternate" hreflang="de" href="https://meteo.ionkom.com/de" />
-			<xhtml:link rel="alternate" hreflang="it" href="https://meteo.ionkom.com/it" />
-			<xhtml:link rel="alternate" hreflang="ro" href="https://meteo.ionkom.com/ro" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://meteo.ionkom.com" />
+			<xhtml:link rel="alternate" hreflang="de" href="https://meteo.ionkom.com" />
+			<xhtml:link rel="alternate" hreflang="it" href="https://meteo.ionkom.com" />
+			<xhtml:link rel="alternate" hreflang="ro" href="https://meteo.ionkom.com" />
     </url>
   </urlset>
